@@ -1,15 +1,37 @@
 .App {
   text-align: center;
 }
+.Appy
+{ border: 'solid 1px black'; max-width: '100vw'}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.title{
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+  
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.red{
+
+  width: 100%;
+  height: auto;
+
+
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+  .title{
+    border:50px;
+    
   }
 }
 
